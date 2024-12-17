@@ -1,0 +1,40 @@
+<div class="menu-container">
+    <!-- Navbar Section -->
+    <header>
+      <nav class="navbar">
+        <a routerLink="/shop">Shop</a>
+        <a routerLink="/contact">Contact</a>
+        <a routerLink="/shopping-cart">Shopping Cart</a>
+        <a routerLink="/sign-in">Sign In</a>
+      </nav>
+    </header>
+  
+    <!-- Shopping Cart Section -->
+    <section class="shopping-cart">
+      <h1>Shopping Cart</h1>
+      <div class="cart-item">
+        <img src="rosy-delight.jpg" alt="Rosy Delight" />
+        <div class="cart-details">
+          <h2>Rosy Delight</h2>
+          <p>Quantity (1)</p>
+          <p class="price">$100</p>
+          <button>Remove</button>
+        </div>
+      </div>
+      <div class="subtotal">
+        <h3>Subtotal: $100.00</h3>
+      </div>
+      <div class="gift-message">
+        <label for="gift-message">Gift Message</label>
+        <textarea id="gift-message" [(ngModel)]="giftMessage"></textarea>
+      </div>
+      <div class="shipping">
+        <p>Shipping & taxes calculated at checkout</p>
+        <p>Free standard shipping within Kyiv</p>
+      </div>
+      <div class="checkout">
+        <button (click)="onSubmit()">CHECK OUT</button>
+      </div>
+    </section>
+  </div>
+  

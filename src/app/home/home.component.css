@@ -1,0 +1,196 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+  padding: 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.navbar a:hover {
+  background-color: #555;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  background-color: #fff;
+  padding: 50px 20px;
+  margin: 30px 0;
+}
+
+.hero h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+.hero p {
+  font-size: 16px;
+  color: gray;
+}
+
+.shop-now {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.shop-now:hover {
+  background-color: #0056b3;
+}
+
+/* About Us Section */
+.about-us {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 20px;
+}
+
+.about-left {
+  flex: 1;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.about-right {
+  flex: 2;
+  padding: 20px;
+}
+
+.about-right h3 {
+  font-size: 24px;
+  color: #333;
+}
+
+.about-right button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+/* Why Choose Us Section */
+.why-choose-us {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 20px;
+}
+
+.choose-left {
+  flex: 1;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.choose-right {
+  flex: 3;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  font-size: 18px;
+  color: #333;
+}
+
+.card p {
+  color: gray;
+}
+
+/* Contact Us Section */
+.contact-us {
+  text-align: center;
+  background-color: #fff;
+  padding: 30px;
+  margin: 30px 20px;
+}
+
+.contact-us h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-us p {
+  color: gray;
+}
+
+.contact-us button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+/* Our Service Section */
+.our-service {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 20px;
+}
+
+.service-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  flex: 1;
+}
+
+.service-card h3 {
+  font-size: 18px;
+  color: #333;
+}
+
+.service-card p {
+  color: gray;
+}
+
+.service-card button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}

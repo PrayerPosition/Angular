@@ -1,0 +1,17 @@
+<div class="container">
+  <h1>Sign up</h1>
+  <p>
+    Become a member and enjoy personalized gift recommendations, fast checkout, and more.
+  </p>
+  <form [formGroup]="signUpForm" (ngSubmit)="onSubmit()">
+    <div class="phone">
+      <p>+380980275095</p>
+    </div>
+    <input type="text" placeholder="XX XX XX" formControlName="code" />
+    <button type="submit" [disabled]="!signUpForm.valid">JOIN US</button>
+  </form>
+  <p>Didn't receive a code? <a href="#">Resend code</a></p>
+  <div class="links">
+    <a href="#">Privacy Policy</a> | <a href="#">Terms and Conditions</a>
+  </div>
+</div>
